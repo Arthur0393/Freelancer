@@ -1,8 +1,8 @@
 :root {
-  --blanco: #ffffff;
+  --blanco: #f1f6f9;
   --oscuro: #212121;
-  --primario: #ffc107;
-  --secundario: #0097a7;
+  --primario: #394867;
+  --secundario: #9ba4b5;
   --gris: #757575;
   --grisClaro: #dfe9f3;
 }
@@ -123,7 +123,7 @@ h3 {
 .navegacion-principal a {
   display: block;
   text-align: center;
-  color: var(--blanco);
+  color: var(--oscuro);
   text-decoration: none;
   font-size: 2rem;
   font-weight: 700;
@@ -131,7 +131,7 @@ h3 {
 }
 .navegacion-principal a:hover {
   background-color: var(--primario);
-  color: var(--oscuro);
+  color: var(--blanco);
 }
 
 /* Hero */
